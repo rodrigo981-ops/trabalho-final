@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Localização - TechCell</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+    <header>
+        <div class="header-container">
+            <a href="index.html" class="logo">
+            <img src="img/logo.png" alt="TechCell" class="logo-img">
+            </a>
+            <nav>
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="quem-somos.html">Quem somos</a></li>
+                    <li><a href="destaques.html">Destaque</a></li>
+                    <li><a href="sac.html">Sac</a></li>
+                    <li><a href="localizacao.html" class="ativo">Localização</a></li>
+                    <li><a href="fale-conosco.html">Fale conosco</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <main>
+
+        <section class="carrossel" aria-label="Carrossel">
+            <div class="carrossel-trilho">
+                <div class="slide" style="background-image: linear-gradient(rgba(0,0,0,0.35), rgba(0,0,0,0.4)), url('img/externa.png');">
+                    <div class="slide-conteudo"><h3>Visite Nossa Loja</h3><p>Confira nossa estrutura completa</p></div>
+                </div>
+                <div class="slide" style="background-image: linear-gradient(rgba(0,0,0,0.35), rgba(0,0,0,0.4)), url('img/centro.png');">
+                    <div class="slide-conteudo"><h3>Centro de Porto Alegre</h3><p>Localização privilegiada</p></div>
+                </div>
+                <div class="slide" style="background-image: linear-gradient(rgba(0,0,0,0.35), rgba(0,0,0,0.4)), url('img/estacionamento.png');">
+                    <div class="slide-conteudo"><h3>Fácil Acesso</h3><p>Estacionamento e transporte público próximos</p></div>
+                </div>
+                <div class="slide" style="background-image: linear-gradient(rgba(0,0,0,0.35), rgba(0,0,0,0.4)), url('img/conhecer.png');">
+                    <div class="slide-conteudo"><h3>Venha nos Conhecer</h3><p>Equipe pronta para te atender</p></div>
+                </div>
+            </div>
+            <button class="carrossel-btn anterior" aria-label="Slide anterior">&#10094;</button>
+            <button class="carrossel-btn proximo" aria-label="Próximo slide">&#10095;</button>
+            <div class="carrossel-pontos"></div>
+        </section>
+
+        <h2 class="titulo-secao">Localização</h2>
+
+        <!-- Mapa Google Maps embed -->
+        <iframe 
+        class="mapa-google"
+        src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d866.3319749289171!2d-51.1407665016982!3d-29.710259690274068!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x951942f6e070148f%3A0xd3d1fcac52477002!2sR.%20do%20Ip%C3%AA%2C%20685%20-%20Ideal%2C%20Novo%20Hamburgo%20-%20RS%2C%2093334-210!5e0!3m2!1spt-BR!2sbr!4v1786407959201!5m2!1spt-BR!2sbr" 
+        width="600" 
+        height="450" 
+        style="border:0;" 
+        allowfullscreen="" 
+        loading="lazy" 
+        referrerpolicy="no-referrer-when-downgrade" 
+        title="Mapa da loja TechCell">
+        </iframe>
+
+        <!-- Cartão de endereço -->
+        <article class="cartao-endereco">
+            <h3>Endereço</h3>
+            <p>R. Ipê , 635 - Ideal</p>
+            <p>Novo Hamburgo - RS, CEP  93334-210</p>
+            <p>Telefone: (51) 9812-8951</p>
+            <p>E-mail: contato@techcell.com.br</p>
+        </article>
+
+        <!-- Galeria de 3 fotos da loja -->
+        <h3 class="subtitulo">Fotos da nossa loja</h3>
+        <div class="galeria-loja">
+            <img src="img/externa.png" alt="Fachada da TechCell">
+            <img src="img/interna.png" alt="Interior da TechCell">
+            <img src="img/estacionamento.png" alt="Estacionamento da TechCell">
+        </div>
+
+        <!-- Horário de Funcionamento -->
+        <div class="horario">
+            <h3>Horário de Funcionamento</h3>
+            <p>Seg-Sex: 08h às 20h</p>
+            <p>Sáb: 09h às 17:30h</p>
+        </div>
+
+    </main>
+
+    <footer>
+        <div class="footer-container">
+            <div class="footer-coluna">
+                <h4>TechCell</h4>
+                <p>R. Ipê , 635 - Ideal<br>Novo Hamburgo - RS<br>(51) 9812-8951</p>
+            </div>
+            <div class="footer-coluna redes">
+                <h4>Redes Sociais</h4>
+                <div class="redes-links">
+                    <a href="#" title="Instagram">IG</a>
+                    <a href="#" title="Facebook">FB</a>
+                    <a href="#" title="Twitter">TW</a>
+                    <a href="#" title="YouTube">YT</a>
+                </div>
+            </div>
+            <div class="footer-coluna">
+                <h4>Legal</h4>
+                <p>&copy; 2026 TechCell - Todos os direitos reservados.</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="js/script.js"></script>
+</body>
+</html>

@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<!-- Página Fale Conosco -->
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fale Conosco - TechCell</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+    <header>
+        <div class="header-container">
+            <a href="index.html" class="logo">
+            <img src="img/logo.png" alt="TechCell" class="logo-img">
+            </a>
+            <nav>
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="quem-somos.html">Quem somos</a></li>
+                    <li><a href="destaques.html">Destaque</a></li>
+                    <li><a href="sac.html">Sac</a></li>
+                    <li><a href="localizacao.html">Localização</a></li>
+                    <li><a href="fale-conosco.html" class="ativo">Fale conosco</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <main>
+
+        <section class="carrossel" aria-label="Carrossel">
+            <div class="carrossel-trilho">
+                <div class="slide" style="background-image: linear-gradient(rgba(0,0,0,0.35), rgba(0,0,0,0.4)), url('img/fale.png');">
+                    <div class="slide-conteudo"><h3>Fale com a TechCell</h3><p>Estamos prontos para te atender</p></div>
+                </div>
+                <div class="slide" style="background-image: linear-gradient(rgba(0,0,0,0.35), rgba(0,0,0,0.4)), url('img/suporte.png');">
+                    <div class="slide-conteudo"><h3>Suporte Personalizado</h3><p>Conte conosco para qualquer dúvida</p></div>
+                </div>
+                <div class="slide" style="background-image: linear-gradient(rgba(0,0,0,0.35), rgba(0,0,0,0.4)), url('img/resposta.png');">
+                    <div class="slide-conteudo"><h3>Atendimento Ágil</h3><p>Respostas em até 24 horas</p></div>
+                </div>
+                <div class="slide" style="background-image: linear-gradient(rgba(0,0,0,0.35), rgba(0,0,0,0.4)), url('img/cliente.png');">
+                    <div class="slide-conteudo"><h3>Cliente em Primeiro Lugar</h3><p>Sua satisfação é nossa prioridade</p></div>
+                </div>
+            </div>
+            <button class="carrossel-btn anterior" aria-label="Slide anterior">&#10094;</button>
+            <button class="carrossel-btn proximo" aria-label="Próximo slide">&#10095;</button>
+            <div class="carrossel-pontos"></div>
+        </section>
+
+        <h2 class="titulo-secao">Fale Conosco</h2>
+
+        <!-- Mensagem de sucesso após envio -->
+        <div class="mensagem-sucesso"></div>
+
+        <form id="formulario-contato" class="formulario" novalidate>
+
+            <div class="campo">
+                <label for="nome">Nome:</label>
+                <input type="text" id="nome" name="nome" required>
+                <span class="erro"></span>
+            </div>
+
+            <div class="campo">
+                <label for="endereco">Endereço:</label>
+                <input type="text" id="endereco" name="endereco" required>
+                <span class="erro"></span>
+            </div>
+
+            <div class="campo">
+                <label for="email">E-mail:</label>
+                <input type="email" id="email" name="email" required>
+                <span class="erro"></span>
+            </div>
+
+            <div class="campo">
+                <label for="telefone">Telefone:</label>
+                <input type="text" id="telefone" name="telefone" placeholder="(XX) XXXXX-XXXX" required>
+                <span class="erro"></span>
+            </div>
+
+            <div class="campo">
+                <label for="assunto">Assunto:</label>
+                <input type="text" id="assunto" name="assunto" required>
+                <span class="erro"></span>
+            </div>
+
+            <div class="campo">
+                <label for="mensagem">Mensagem:</label>
+                <textarea id="mensagem" name="mensagem" required></textarea>
+                <span class="erro"></span>
+            </div>
+
+            <button type="submit" class="btn-enviar">Enviar</button>
+
+        </form>
+
+        <!-- Informações de contato -->
+        <article class="info-contato">
+            <h3>Informações de Contato</h3>
+            <p>
+                Telefone: (51) 9812-8951<br>
+                WhatsApp: (51) 9163-6587<br>
+                E-mail: contato@techcell.com.br<br>
+                Horários de atendimento de Seg. à Sex. das 8h às 20h Sab: 09h ás 17:30h
+            </p>
+        </article>
+
+    </main>
+
+    <footer>
+        <div class="footer-container">
+            <div class="footer-coluna">
+                <h4>TechCell</h4>
+                <p>R. Ipê , 635 - Ideal<br>Novo Hamburgo - RS<br>(51) 9812-8951</p>
+            </div>
+            <div class="footer-coluna redes">
+                <h4>Redes Sociais</h4>
+                <div class="redes-links">
+                    <a href="#" title="Instagram">IG</a>
+                    <a href="#" title="Facebook">FB</a>
+                    <a href="#" title="Twitter">TW</a>
+                    <a href="#" title="YouTube">YT</a>
+                </div>
+            </div>
+            <div class="footer-coluna">
+                <h4>Legal</h4>
+                <p>&copy; 2026 TechCell - Todos os direitos reservados.</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="js/script.js"></script>
+</body>
+</html>

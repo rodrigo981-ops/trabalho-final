@@ -1,0 +1,175 @@
+<!DOCTYPE html>
+<!-- Página Destaques -->
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Destaques - TechCell</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+    <header>
+        <div class="header-container">
+            <a href="index.html" class="logo">
+             
+            </a>
+            <nav>
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="quem-somos.html">Quem somos</a></li>
+                    <li><a href="destaques.html" class="ativo">Destaque</a></li>
+                    <li><a href="sac.html">Sac</a></li>
+                    <li><a href="localizacao.html">Localização</a></li>
+                    <li><a href="fale-conosco.html">Fale conosco</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <main>
+
+        <section class="carrossel" aria-label="Carrossel">
+            <div class="carrossel-trilho">
+                <div class="slide" style="background-image: linear-gradient(rgba(0,0,0,0.35), rgba(0,0,0,0.4)), url('img/destaques.png');">
+                    <div class="slide-conteudo"><h3>Destaques da Semana</h3><p>Os smartphones mais procurados</p></div>
+                </div>
+                <div class="slide" style="background-image: linear-gradient(rgba(0,0,0,0.35), rgba(0,0,0,0.4)), url('img/lancamentos.png');">
+                    <div class="slide-conteudo"><h3>Lançamentos</h3><p>Os modelos mais modernos do mercado</p></div>
+                </div>
+                <div class="slide" style="background-image: linear-gradient(rgba(0,0,0,0.35), rgba(0,0,0,0.4)), url('img/promocoes.png');">
+                    <div class="slide-conteudo"><h3>Promoções</h3><p>Preços especiais em modelos selecionados</p></div>
+                </div>
+                <div class="slide" style="background-image: linear-gradient(rgba(0,0,0,0.35), rgba(0,0,0,0.4)), url('img/acessorios.png');">
+                    <div class="slide-conteudo"><h3>Acessórios</h3><p>Os melhores produtos para o seu smartphone</p></div>
+                </div>
+            </div>
+            <button class="carrossel-btn anterior" aria-label="Slide anterior">&#10094;</button>
+            <button class="carrossel-btn proximo" aria-label="Próximo slide">&#10095;</button>
+            <div class="carrossel-pontos"></div>
+        </section>
+
+        <h2 class="titulo-secao">Produtos em Destaque</h2>
+
+        <!-- Categorias em destaque -->
+        <div class="destaques-tags">
+            <span class="tag">Smartphones Premium</span>
+            <span class="tag">Smartphones Intermediários</span>
+            <span class="tag">Smartphones de Entrada</span>
+            <span class="tag">Acessórios</span>
+            <span class="tag">Promoções da Semana</span>
+            <span class="tag">Lançamentos</span>
+        </div>
+
+        <div class="cards-produtos secao-3">
+
+            <article class="card">
+                <div class="card-imagem"><img src="img/galaxy-s24.png" alt="Galaxy S24"></div>
+                <div class="card-info">
+                    <h3 class="card-nome">Galaxy S24</h3>
+                    <p class="card-preco">R$ 3.499,00</p>
+                    <button class="btn-comprar">Comprar</button>
+                </div>
+            </article>
+
+            <article class="card">
+                <div class="card-imagem"><img src="img/iphone-15.png" alt="iPhone 15"></div>
+                <div class="card-info">
+                    <h3 class="card-nome">iPhone 15</h3>
+                    <p class="card-preco">R$ 4.999,00</p>
+                    <button class="btn-comprar">Comprar</button>
+                </div>
+            </article>
+
+            <article class="card">
+                <div class="card-imagem"><img src="img/iphone-14.png" alt="iPhone 14"></div>
+                <div class="card-info">
+                    <h3 class="card-nome">iPhone 14</h3>
+                    <p class="card-preco">R$ 3.599,00</p>
+                    <button class="btn-comprar">Comprar</button>
+                </div>
+            </article>
+
+            <article class="card">
+                <div class="card-imagem"><img src="img/iphone-16.png" alt="iPhone 16"></div>
+                <div class="card-info">
+                    <h3 class="card-nome">iPhone 16</h3>
+                    <p class="card-preco">R$ 5.199,00</p>
+                    <button class="btn-comprar">Comprar</button>
+                </div>
+            </article>
+
+            <article class="card">
+                <div class="card-imagem"><img src="img/motorola-edge50.png" alt="Motorola Edge 50 Fusion"></div>
+                <div class="card-info">
+                    <h3 class="card-nome">Motorola edge 50 Fusion</h3>
+                    <p class="card-preco">R$ 2.199,00</p>
+                    <button class="btn-comprar">Comprar</button>
+                </div>
+            </article>
+
+            <article class="card">
+                <div class="card-imagem"><img src="img/xiaomi-15.png" alt="Xiaomi 15"></div>
+                <div class="card-info">
+                    <h3 class="card-nome">Xiaomi 15</h3>
+                    <p class="card-preco">R$ 4.499,00</p>
+                    <button class="btn-comprar">Comprar</button>
+                </div>
+            </article>
+
+            <article class="card">
+                <div class="card-imagem"><img src="img/pixel-8.png" alt="Google Pixel 8"></div>
+                <div class="card-info">
+                    <h3 class="card-nome">Google Pixel 8</h3>
+                    <p class="card-preco">R$ 4.399,00</p>
+                    <button class="btn-comprar">Comprar</button>
+                </div>
+            </article>
+
+            <article class="card">
+                <div class="card-imagem"><img src="img/oneplus-12.png" alt="OnePlus 12"></div>
+                <div class="card-info">
+                    <h3 class="card-nome">OnePlus 12</h3>
+                    <p class="card-preco">R$ 3.799,00</p>
+                    <button class="btn-comprar">Comprar</button>
+                </div>
+            </article>
+
+            <article class="card">
+                <div class="card-imagem"><img src="img/iphone-15-promax.png" alt="Iphone 15 Pro Max"></div>
+                <div class="card-info">
+                    <h3 class="card-nome">Iphone 15 Pro Max</h3>
+                    <p class="card-preco">R$ 7.199,00</p>
+                    <button class="btn-comprar">Comprar</button>
+                </div>
+            </article>
+
+        </div>
+
+    </main>
+
+    <footer>
+        <div class="footer-container">
+            <div class="footer-coluna">
+                <h4>TechCell</h4>
+                <p>R. Ipê , 635 - Ideal - <br>Novo Hamburgo - RS<br>(51) 9812-8951</p>
+            </div>
+            <div class="footer-coluna redes">
+                <h4>Redes Sociais</h4>
+                <div class="redes-links">
+                    <a href="#" title="Instagram">IG</a>
+                    <a href="#" title="Facebook">FB</a>
+                    <a href="#" title="Twitter">TW</a>
+                    <a href="#" title="YouTube">YT</a>
+                </div>
+            </div>
+            <div class="footer-coluna">
+                <h4>Legal</h4>
+                <p>&copy; 2026 TechCell - Todos os direitos reservados.</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="js/script.js"></script>
+</body>
+</html>
